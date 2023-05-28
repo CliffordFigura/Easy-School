@@ -1,0 +1,137 @@
+*{
+    padding: 0px; margin: 0px; border: none; outline: none;
+}
+
+i{
+    font-size: 28px; color: rgb(0, 0, 73);
+}
+
+label{
+    cursor: pointer;
+}
+
+body{
+    background-color: rgb(230, 230, 230); font-family: Arial, Helvetica, sans-serif;
+    color: black; font-size: 15px; overflow-x: hidden; transition: .2s;
+}
+
+#top-bar{
+    background-color: rgb(0, 20, 230); color: white; position: fixed; width: 100%; height: 32px; padding: 12px;
+    display: flex; box-shadow: .5px .5px 10px .5px rgb(0, 0, 0,0.55); transition: .2s;
+}
+
+#sair{
+    height: 32px; width: 50px; margin-top: -5px; margin-left: 77%; border-radius: 8px; display: none;
+}
+
+#terminarS{
+    width: 100%; height: 100%; border-radius: 8px; background-color: rgb(255, 64, 16); color: white; font-weight: bold;
+    cursor: pointer;
+}
+
+#acessos{
+    background-color: transparent; width: 50%; height: 90%; position: absolute; margin: -8px 50%; display: flex;
+}
+
+.page{
+    background-color: transparent; height: 98%; width: 14%; margin-left: 4%; cursor: pointer; border-bottom: 3px solid transparent;
+    transition: .3s; text-align: center; display: block; margin-top: 0px;
+}
+
+#page1:hover{
+    border-bottom: 3px solid rgb(0, 0, 0);
+}
+
+#page1:hover ~ #page5{
+    border-bottom: 3px solid transparent;
+}
+
+#page2:hover{
+    border-bottom: 3px solid rgb(0, 0, 0);
+}
+
+#page2:hover ~ #page5{
+    border-bottom: 3px solid transparent;
+}
+
+#page3:hover{
+    border-bottom: 3px solid rgb(0, 0, 0);
+}
+
+#page3:hover ~ #page5{
+    border-bottom: 3px solid transparent;
+}
+
+#page4:hover{
+    border-bottom: 3px solid rgb(0, 0, 0);
+}
+
+#page5:hover{
+    border-bottom: 3px solid rgb(0, 0, 0);
+}
+
+
+.page:active i{
+    color: rgb(0, 162, 255); transition: .4s;
+}
+
+
+#page1{
+    margin-left: 6%;
+}
+
+#page2{
+    background-color: transparent;
+}
+
+#page3{
+    background-color: transparent;
+}
+
+#page4{
+    background-color: transparent;
+}
+
+#page5{
+    background-color: transparent;
+}
+
+#geral{
+    background-color: transparent; width: 100%; height: 91.2%; position: absolute; margin-top: 4.5%;
+}
+
+#contaria{
+    background-color: rgb(0, 47, 255); position: absolute; width: 383px; height: 270px; margin-left: 70%; color: white;
+    border-radius: 2px; transition: .2s; opacity: 0%; transform: translateY(-100%);
+}
+
+#contaria.activa{
+    opacity: 100%; transition: .2s; transform: translateY(20.8%);
+}
+
+
+
+#notificaria{
+    background-color: rgba(0, 0, 255, 0.959); position: absolute; width: 383px; height: 88%; margin: 4.5% 70%; color: black;
+    border-radius: 4px; transition: .3 ease-out; display: none;
+}
+
+#notificaria.activa{
+    display: block; transition: .5s ease-in;
+}
+
+
+#chataria{
+    background-color: rgba(0, 88, 204, 0.685); position: absolute; width: 383px; height: 88%; margin: 4.5% 70%; color: black;
+    border-radius: 4px; transition: .3 ease-out; display: none;
+}
+
+#chataria.activa{
+    display: block; transition: .5s ease-in;
+}
+
+
+#plus{
+    background-color: rgb(0, 20, 255); width: 54px; height: 54px; border-radius: 100%; position: fixed; margin: 590px 92%;
+    text-align: center; padding: 2px; cursor: pointer; border: 2px solid transparent; box-shadow: .8px .8px 10px .5px rgb(240, 240, 240);
+}

@@ -1,0 +1,337 @@
+
+*{
+    border: none; outline: none; font-family: Helvetica; margin: 0px; padding: 0px; box-sizing: border-box;
+}
+
+
+html,body{
+    background-color: rgb(245, 245, 245); color: black;
+    font-size: 14px; overflow: hidden; text-align: center;
+    height: 100vh;
+}
+
+a{
+    text-decoration: none; color: blue;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+p{
+    font-size: 15px;
+}
+
+.sta{
+    background-color: rgba(10, 67, 255, 0.842); width: 100%; height: 30px; padding-top: 20px; margin-top: 0px;
+}
+
+#header{
+    margin: -15px 4px; color: white; cursor: default;
+}
+
+
+#come{
+    border: 1px solid transparent; margin-top: 14rem; padding: 24px;
+}
+
+.select{
+    width: 50%; color: black; margin-top: 0%; padding: auto; margin-left: 25%;
+    border-radius: 5px; background-color: transparent; height: 50px; border: 1px solid transparent;
+}
+
+.acess{
+    padding: 10px 12px; border-radius: 6px; cursor: pointer; width: 100px; font-weight: 800; transition: .3s; font-size: 14px;
+    background-color: rgb(0, 51, 190); color: white; margin: 10px 4px;
+}
+
+.acess:hover{
+    background-color: rgb(20, 55, 255);
+}
+
+.acess:active{
+    background-color: rgb(0, 75, 238);
+}
+
+.coleta{ 
+    width: 500px; height: 300px; color: black; background-color: transparent; margin: 40px 30%; padding: 10px; border-radius: 6px;
+    box-shadow: .5px .5px 5px .5px rgb(70, 70, 70); overflow: hidden;
+}
+
+
+#alfa{
+    border: 1px solid transparent; transition: .3s ease-out; display: flex; height: 280px; color: black; overflow: hidden; width: 2138px;
+    margin-left: -5px;
+}
+
+#a,#b,#c,#d,#e{
+    border: 1px solid transparent; transition: .3s;
+}
+
+
+#a{
+    margin-left: 0%; width: 100%;
+}
+
+
+#b{
+    margin-left: 0%; width: 510px;
+}
+
+
+#c{
+    margin-left: 30px; width: 510px;
+}
+
+
+#d{
+    margin-left: 30px; width: 510px;
+}
+
+
+#e{
+    margin-left: 30px; width: 510px; text-align: left;
+}
+
+
+#passo1,#passo2,#passo3,#passo4{
+    transition: 1s;
+}
+
+
+
+#alfa.passado1 #passo1{
+    opacity: 0%;
+    transition: 1s;
+}
+
+
+#alfa.passado2{
+    transform: translateX(-544px);
+}
+
+
+#alfa.passado2 #passo2{
+    opacity: 0%;
+    transition: 1s;
+}
+
+#alfa.passado3{
+    transform: translateX(-1086px);
+}
+
+#alfa.passado3 #passo3{
+    opacity: 0%;
+    transition: 1s;
+}
+
+#alfa.passado4{
+    transform: translateX(-1628px);
+}
+
+#alfa.passado4 #passado4{
+    opacity: 0%;
+    transition: 1s;
+}
+
+#comecar1{
+    background-color: rgb(0, 30, 201); color: white; padding: 14px; font-weight: bold; width: 28%; font-size: 15px;
+    margin: 100px 0px; border-radius: 20px; cursor: pointer; border: 2px solid transparent; transition: .2s;
+}
+
+
+#comecar2{
+    background-color: rgba(0, 27, 177, 0.945); color: white; padding: 5px; font-weight: bold; width: 20%; font-size: 15px;
+    margin: 6px 40px; border-radius: 4px; cursor: pointer; border: 2px solid transparent; transition: .2s; position: relative;
+}
+
+
+#comecar3{
+    background-color: rgba(0, 27, 177, 0.945); color: white; padding: 5px; font-weight: bold; width: 20%; font-size: 15px;
+    margin: 6px 40px; border-radius: 4px; cursor: pointer; border: 2px solid transparent; transition: .2s; position: relative;
+}
+
+
+#comecar4{
+    background-color: rgba(0, 27, 177, 0.945); color: white; padding: 5px; font-weight: bold; width: 20%; font-size: 15px;
+    margin: 6px 40px; border-radius: 4px; cursor: pointer; border: 2px solid transparent; transition: .2s; position: relative;
+}
+
+
+#guardarConta{
+    background-color: rgba(0, 177, 88, 0.945); color: white; padding: 5px; font-weight: bold; width: 20%; font-size: 15px;
+    margin: 10px 210px; border-radius: 4px; cursor: pointer; border: 2px solid transparent; transition: .2s; position: relative;
+}
+
+
+#guardarConta:hover{
+    background-color: rgba(0, 177, 59, 0.945);
+}
+
+
+#comecar1:hover{
+    background-color: rgb(0, 35, 231);
+}
+
+
+#comecar1:active{
+    background-color: rgba(20, 55, 255, 0.753);
+}
+
+
+
+
+#comecar2:hover{
+    background-color: rgb(0, 35, 231);
+}
+
+
+#comecar2:active{
+    background-color: rgba(20, 55, 255, 0.753);
+}
+
+
+
+#suv{
+    font-weight: bold;
+}
+
+
+.login{
+    background-color: rgb(245, 245, 245); width: 30%; height: 290px; padding: 1%; border-radius: 6px; margin: 40px 34%;
+    box-shadow: .5px .5px 10px .5px rgb(0, 11, 109); text-align: center; color: black;
+}
+
+.s{
+    width: 88%; padding: 3%; border: 2px solid rgb(107, 116, 134); background-color: rgb(248, 248, 248); margin-left: 0%;
+    margin-top: 5%; border-radius: 6px; font-size: 15px;
+}
+
+.s:focus{
+    border: 2px solid rgb(29, 147, 226);
+}
+
+#entrarN{
+    background-color: rgb(20, 55, 255); width: 46%; padding: 12px; font-weight: bold; font-size: 16px; color: white;
+    border-radius: 8px;margin: 20px 0%; cursor: pointer;
+}
+
+#entrarN:hover{
+    background-color: rgb(43, 74, 255)
+}
+
+#entrarN:active{
+    background-color: rgb(0, 60, 255);
+}
+
+#cc{
+    color: rgb(0, 89, 255);
+}
+
+#aviso-sessao{
+    background-color: white; color: black; box-shadow: .5px .5px 10px .5px black; width: 30%; height: 260px; padding: 1%;
+    border-radius: 6px; margin: 12% 32%; position: absolute; display: none;
+}
+
+
+#more{
+    background-color: transparent; height: 20px; width: 37px; position: absolute; margin-left: 96.5%; display: flex; margin-top: 4px;
+    border-radius: 2px; cursor: pointer; transition: .1s; padding-left: 4.5px;
+}
+
+#more:active{
+    background-color: rgb(0, 115, 223);
+}
+
+#pontinho{
+    height: 4px; width: 4px; background-color: white; margin: 8px 3px; border-radius: 50px;
+}
+
+.termo{
+    border: 1px solid transparent; margin-top: 2px; display: flex; width: 100%;
+}
+
+.T{
+    margin-left: 0%; font-weight: bold; font-size: 13px; text-decoration: none; transition: .2s; color: blue;
+}
+
+.P{
+    margin-left: 1rem; font-weight: bold; font-size: 13px; text-decoration: none; transition: .2s; color: blue;
+}
+
+.T:hover{
+    text-decoration: none; color: rgb(0, 22, 110);
+}
+
+.P:hover{
+    text-decoration: none; color: rgb(0, 22, 110);
+}
+
+
+
+#marcaE{
+    border: 1px solid transparent; box-shadow: .5px .5px 10px .5px rgb(160, 160, 160); width: 80px; height: 80px; margin: 2px 46%;
+    border-radius: 50px;
+}
+
+#marcaE.on{
+    box-shadow: .5px .5px 10px .5px rgb(0, 0, 0);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1000px){
+    .coleta{
+        margin: 120px 25%;
+    }
+}
+
+
+@media screen and (max-width: 375px) {
+
+    .select{
+        margin-left: 6%; width: 65%; margin-top: 200px;
+    }
+
+    .coleta{
+        margin-left: 2%; width: 90%;
+    }
+
+    #a{
+        margin-left: 0%;
+    }
+
+    #passo1{
+        margin-left: -16%;
+    }
+
+    #passo2{
+        margin-left: -16%;
+    }
+
+    #passo3{
+        margin-left: -16%;
+    }
+
+    #passo4{
+        margin-left: -16%;
+    }
+
+    .login{
+        width: 80%; margin-left: 8%;
+    }
+}

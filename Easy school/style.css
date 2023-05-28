@@ -1,0 +1,130 @@
+
+
+i{
+    font-size: 30px;
+}
+
+
+.mdi-hexagon-multiple{
+    font-size: 50px; border: none; display: block; transition: .4s; position: fixed; margin-left: 4px;
+}
+
+
+.mdi-hexagon-multiple-outline{
+    font-size: 50px; border: none; display: block; transition: .4s; position: fixed; margin-left: 4px;
+}
+
+
+#gira{
+    background-color: transparent; width: 60px; height: 60px; border: 1px solid transparent; position: fixed;  margin: -25px 46%;
+    transition: .3s; border-radius: 4px;
+}
+
+@media screen and (max-width: 1027px) {
+    #gira{
+        margin-left: 45.5%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    #gira{
+        margin-left: 44%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #gira{
+        margin-left: 43%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    #gira{
+        margin-left: 42%;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    #gira{
+        margin-left: 40%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #gira{
+        margin-left: 40%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    #gira{
+        margin-left: 36%;
+    }
+
+    #come{
+        border: 1px solid red; padding: 20px; height: 200px;
+    }
+}
+
+
+.input{
+    background-color: rgb(247, 245, 245); color: black; font-size: 16px; padding: 2.2%; border-radius: 4px; margin: 4px 0px;
+    width: 340px; outline: 1px solid gray;
+}
+
+
+.input::placeholder{
+    color: rgba(88, 88, 88, 0.705);
+}
+
+
+.input:focus{
+    outline: 2px solid dodgerblue;
+}
+
+
+#nome,#email,#telefone,#senha{
+    margin-left: -5px;
+}
+
+
+
+#Masculino{
+    outline: none; width: 14px; margin-left: -300px; cursor: pointer;
+}
+
+
+#Femenino{
+    outline: none; width: 14px; margin-left: -301px; cursor: pointer;
+}
+
+
+#Personalizado{
+    outline: none; width: 14px; margin-left: -272px; cursor: pointer;
+}
+
+
+label{
+    cursor: pointer;
+}
+
+
+#bt-voltar{
+    background-color: rgb(30, 101, 255); color: white; font-weight: bold; padding: .5%; width: 40px; border-radius: 6px;
+    margin: 5px; cursor: pointer; transition: .3s;
+}
+
+
+#bt-voltar:hover{
+    background-color: rgb(0, 45, 170);
+}
+
+
+#volt{
+    display: flex; border: 1px solid transparent; width: 50px;
+}
+
+
+#aviso{
+    color: red; position: absolute; margin: 10px 500px;
+}
